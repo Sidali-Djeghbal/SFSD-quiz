@@ -13,6 +13,10 @@ body {
     flex-direction: column; /* Stack content vertically */
 }
 
+.app{
+    margin-top: -20%;
+}
+
 #start-button {
     background-color: #5c5c5c;
     color: #fff;

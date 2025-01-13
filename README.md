@@ -35,9 +35,6 @@ This app was fully developed by **Sidali** using **Deepseek**.
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, create a feature branch, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 Thank you for exploring the Interactive Quiz App! Stay tuned for exciting updates and new features.
 

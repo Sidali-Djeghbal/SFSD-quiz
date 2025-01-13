@@ -30,7 +30,7 @@ The app currently uses chapters from the **Files and Data Structures** course to
 4. Explore the animations and design elements for a more engaging experience.
 
 ## Attribution
-This app was fully developed by **Sidali** using **Deepseek**.
+This app was developed by **Sidali** using **Deepseek**.
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, create a feature branch, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.

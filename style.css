@@ -121,10 +121,10 @@ body {
 }
 
 .footer-content{
-    position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -133,10 +133,10 @@ body {
     z-index: 100;
     padding-bottom: 10px;
     color: white;
+    width: 90%;
 }
 
 .deepseek{
-    
 color: rgb(255, 255, 255);
 color-scheme :dark;
 display: block;
@@ -153,9 +153,19 @@ word-break :break-word;
 
 }
 
+.ds-icon{
+    width: 60px; height: 60px;
+}
+
 @media (max-width: 600px) {
+    body{
+        font-size: medium;
+    }
     .screen{
-        width: 450px;
+        width: 400px;
+    }
+    .footer-content{
+        font-size: small;
     }
 }
 
@@ -170,9 +180,15 @@ word-break :break-word;
         height: 100vh;
     }
     .screen{
-        width: 350px;
+        width: 300px;
     }
     .footer-content{
     margin-buttom:10px;
+    font-size: 10px;
+    }
+    .ds-icon{
+        width: 50px;
+        height: 50px;
+        font-size: small;
     }
 }

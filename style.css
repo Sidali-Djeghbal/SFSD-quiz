@@ -12,6 +12,8 @@ body {
     background: url(Background-Image/background.jpg) no-repeat;
     background-size: cover;
     flex-direction: column; /* Stack content vertically */
+    overflow: hidden;
+
 }
 
 .app{

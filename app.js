@@ -22,22 +22,31 @@ startButton.addEventListener('click', () => {
     chapterScreen.classList.remove('hidden');
 });
 
+// Function to shuffle an array
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 // Event listeners for chapter buttons
 chapterButtons.forEach(button => {
     button.addEventListener('click', (event) => {
         const chapterId = event.target.id;
         switch (chapterId) {
             case 'chapter1':
-                selectedChapterQuestions = questions1;
+                selectedChapterQuestions = shuffle(questions1);
                 break;
             case 'chapter2':
-                selectedChapterQuestions = questions2;
+                selectedChapterQuestions = shuffle(questions2);
                 break;
             case 'chapter3':
-                selectedChapterQuestions = questions3;
+                selectedChapterQuestions = shuffle(questions3);
                 break;
             case 'chapter4':
-                selectedChapterQuestions = questions4;
+                selectedChapterQuestions = shuffle(questions4);
                 break;
         }
         chapterScreen.classList.add('hidden');
